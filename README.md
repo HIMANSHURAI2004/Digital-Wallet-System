@@ -1,6 +1,6 @@
 # 💸 Digital Wallet System with Fraud Detection and Admin Reporting
 
-This project implements a virtual wallet system where users can deposit, withdraw, and transfer virtual currencies (USD, INR, EUR). It includes admin controls, fraud detection (real-time & scheduled), soft delete support, and reporting features.
+- This project implements a virtual wallet system where users can deposit, withdraw, and transfer virtual currencies (USD, INR, EUR). It includes admin controls, fraud detection (real-time & scheduled), soft delete support, and reporting features.
 ---
 
 ## 🚀 Features
@@ -93,9 +93,9 @@ All admin routes require `role: "admin"` on the authenticated user.
 
 ## 🗂️ Models
 
-### User
-### Wallet
-### Transaction
+- User
+- Wallet
+- Transaction
 
 ---
 
@@ -105,7 +105,7 @@ All admin routes require `role: "admin"` on the authenticated user.
 - **Database**: MongoDB, Mongoose
 - **Auth**: JWT, Cookies
 - **Scheduler**: node-cron
-
+- **Testing**: Postman
 ---
 
 ### .env Example:
